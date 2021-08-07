@@ -1,0 +1,222 @@
+.text_mine{
+    color: #ff305b !important;
+}
+header
+{
+    background-image: url("../img/slider/slider-01.jpg");
+    
+    background-size: cover;
+    height: 100vh;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100%;
+}
+li a 
+{
+    transition: all 0.5s ;
+}
+li:hover a
+{
+    color: #ff305b !important;
+}
+.about-info
+{
+    border-radius: 5px;
+    box-shadow: 0 0 0 8px #555555 inset;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    
+}
+.about-img 
+{
+   position: relative;
+   transform: translateY(24px) translateX(24px);
+}
+.profi-dec h2
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.profi-dec h2::after{
+    content: "";
+    width: 0.3rem;
+    height: 1.4rem;
+    background-color: #ff305b;
+    position: absolute;
+    right: 101%;
+}
+.profi-about button
+{
+    background-color:#ff305b ;
+    border: none;
+} 
+.profi-about button:hover
+{
+    background-color:#f00937 ;
+}
+section.services
+{
+    background-color: rgb(241, 241, 241);
+   
+}
+.services h2
+{
+    font-size: 40px;
+    position: relative;
+}
+.services h2::after
+{
+    content: " ";
+    width: 120px;
+    height: 3px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+}
+.services i {
+color: #ff305b;
+}
+.services h3
+{
+    font-size: 24px;
+}
+.show:hover {
+    background-color: white;
+    box-shadow: 3px 3px 6px gray;
+
+}
+.Portfolio ul
+{
+    list-style: none;
+}
+.Portfolio h2
+{
+    font-size: 40px;
+    position: relative;
+}
+.Portfolio h2::after{
+    content: " ";
+    width: 120px;
+    height: 3px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+}
+.Portfolio ul a
+{
+    color: #000;
+    text-decoration: none;
+}
+.porto-img
+{
+    position: relative;
+}
+.porto-layer
+{
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+   width: 100%;
+   opacity: 0;
+}
+.porto-layer i
+{
+    color:#ff305b ;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.porto-layer:hover
+{
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+.count
+{
+      background-color: rgb(241, 241, 241);
+      padding: 1rem;
+      margin: 2rem auto;
+}
+.count i {
+    color:#ff305b ;
+    font-size: 26px;
+}
+.feedback h2 ,.blog h2 ,.contact h2
+{
+font-size: 40px;
+font-weight: 800;
+}
+.feedback .bg-gray
+{
+    background-color: #f1f1f1 !important;
+
+}
+.stars i {
+    color: #f1c30d;
+}
+.blog 
+{
+    background-color: #f1f1f1 !important;
+}
+.blog_info h3:hover
+{
+color:#ff305b ;
+transition: 0.5s;
+}
+.blog a{
+    text-decoration: none;
+    background-color: salmon;
+}
+.blog a:hover
+{
+color:#ff305b ;
+transition: 0.5s;
+}
+.my-bottom .btn-gray
+{
+    background-color: #ff305b;
+    color: #fff;
+    border-color: #ff305b;
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-size: 1.2rem;
+}
+.my-bottom .btn-gray:hover
+{
+    background-color:#f00937 ;
+}
+.footer
+{
+    background-color: #555555;
+}
+
+.footer ul li
+{
+    list-style-type: none;
+    padding: 15px;
+}
+.footer ul li i {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.footer ul li i:hover
+{
+    color:#f00937 ;
+}
+.copy-right p {
+    font-size: 1.2rem;
+    font-weight: 470;
+}
+.copy-right a {
+    color:#f00937 ;
+    font-weight: normal;
+}
